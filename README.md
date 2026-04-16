@@ -1,0 +1,309 @@
+[index.html](https://github.com/user-attachments/files/26768024/index.html)
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>현대로보틱스 반도체 유지보수 엔지니어 지원 포트폴리오</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Noto+Sans+KR:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css?v=3">
+</head>
+<body class="locked">
+    <!-- Splash Screen Sequence -->
+    <div id="splash-screen" class="splash-screen">
+        <div class="splash-content">
+            <img src="robot.png" alt="Robot" class="splash-robot" id="splashRobot" 
+                 onerror="this.src='https://via.placeholder.com/600x800/02040a/00E5FF?text=++[+ROBOT+IMAGE+]+'">
+            <div class="splash-action">
+                <h2 class="splash-title mb-md">SYSTEM SECURED</h2>
+                <button id="enterSiteBtn" class="btn btn-primary enter-btn">
+                    <span class="btn-text">안전하게 홈페이지 입장하기</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="splash-curtain">
+            <div class="half top"></div>
+            <div class="splash-slash"></div>
+            <div class="half bottom"></div>
+        </div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Hyundai<span class="logo-accent">Robotics</span> Portfolio</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#vision" class="nav-item">Vision</a></li>
+                <li><a href="#tech-mastery" class="nav-item">Tech Mastery</a></li>
+                <li><a href="#collaboration" class="nav-item">Collaboration</a></li>
+                <li><a href="#board" class="nav-item">Board</a></li>
+                <li><a href="#future" class="nav-item">Future</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Vision Section -->
+        <section id="vision" class="section hero">
+            <div class="hero-bg">
+                <div class="grid-overlay"></div>
+                <div class="glow-orb orb-1"></div>
+                <div class="glow-orb orb-2"></div>
+            </div>
+            <div class="container hero-content fade-in-up">
+                <h2 class="hero-theme">VISION &middot; 혁신</h2>
+                <h1 class="hero-title">
+                    <span class="gradient-text">상상 불가한 혁신</span>을<br>
+                    유지보수의 신뢰로 증명하는 엔지니어
+                </h1>
+                <p class="hero-subtitle">
+                    “기술이 작아질수록 더 크게 생각한다.”<br>
+                    반도체의 미세 공정에서 발생할 수 있는 변수를 로봇 기술로 완벽히 제어합니다.
+                </p>
+                <div class="hero-actions">
+                    <a href="#tech-mastery" class="btn btn-primary">Discover Mastery</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Mastery Section -->
+        <section id="tech-mastery" class="section tech-mastery">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2 class="section-title">Tech Mastery</h2>
+                    <p class="section-desc">복잡하고 끈질긴 반복 작업 끝에 완성되는 혁신</p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card reveal-up" style="transition-delay: 0.1s;">
+                        <div class="skill-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg>
+                        </div>
+                        <h3>Deposition (증착)</h3>
+                        <p>초정밀 로봇 메커니즘 분석 및 진공 유지보수</p>
+                    </div>
+                    <div class="skill-card reveal-up" style="transition-delay: 0.2s;">
+                        <div class="skill-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                        </div>
+                        <h3>Etch (식각)</h3>
+                        <p>고속 정밀 제어 시스템 점검 및 플라즈마 환경 대비</p>
+                    </div>
+                    <div class="skill-card reveal-up" style="transition-delay: 0.3s;">
+                        <div class="skill-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                        </div>
+                        <h3>Strip & Clean (세정)</h3>
+                        <p>오염 제어 및 화학물질 취급 로봇 안전성 확보</p>
+                    </div>
+                </div>
+
+                <div class="projects-container">
+                    <!-- PM Project -->
+                    <div class="project-box glass-panel reveal-up blur-load">
+                        <div class="project-content">
+                            <span class="project-badge">예방 정비 (PM)</span>
+                            <h3 class="project-title">보이지 않는 곳에서 혁신을 지속하는 힘, 완벽을 향한 예방 정비</h3>
+                            
+                            <div class="story-blocks">
+                                <div class="story-block">
+                                    <h4>철학: 혁신은 끈질긴 반복 끝에 완성됩니다</h4>
+                                    <p>반도체 공정의 혁신은 단순히 새로운 기술을 도입하는 것에 그치지 않고, 그 기술이 24시간 완벽하게 작동할 수 있도록 유지하는 집요함에서 완성됩니다. 램리서치의 철학처럼 <strong>"혁신은 고도로 복잡하고도 끈질긴 반복 작업 끝에 완성된다"</strong>는 믿음으로, 현대로보틱스의 로봇들이 단 1초의 오차 없이 가동될 수 있도록 집중해왔습니다.</p>
+                                </div>
+                                <div class="story-block">
+                                    <h4>실천: 기술이 작아질수록 더 크게 생각하는 정밀함</h4>
+                                    <p>증착 및 식각 공정용 로봇은 아주 미세한 마모나 오염만으로도 치명적입니다. <strong>"기술의 크기가 작아질수록 더 크게 생각한다"</strong>는 원칙을 바탕으로, 단순 소모품 교체를 넘어 설비 메커니즘을 분석하고 부품의 마모 패턴을 데이터화하여 예기치 못한 가동 중단을 방지했습니다.</p>
+                                </div>
+                                <div class="story-block">
+                                    <h4>가치: 지속 가능한 운영을 위한 사명</h4>
+                                    <p>예방 정비는 기계를 닦고 조이는 단순한 일이 아닙니다. <strong>'지속 가능한 운영'</strong>과 <strong>'2050 넷제로(Net-zero) 전략'</strong>을 현장에서 실천하여 설비 에너지 효율을 최적화하고 자원 낭비를 줄였습니다.</p>
+                                </div>
+                                <div class="story-block">
+                                    <h4>약속: 보이지 않는 혁신까지 내다보는 신뢰</h4>
+                                    <p>극한의 공정 환경에서도 <strong>'두터운 신뢰'</strong>의 결과물을 만들어낼 준비가 되어 있습니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BM Project -->
+                    <div class="project-box glass-panel reveal-up blur-load mt-md">
+                        <div class="project-content">
+                            <span class="project-badge bg-cyan">장애 대응 (BM)</span>
+                            <h3 class="project-title">정적을 깨는 혁신, 0.1mm의 오차를 잡는 집념</h3>
+                            
+                            <div class="story-blocks">
+                                <div class="story-block">
+                                    <h4>위기: 어려울수록 더 빨리 뛰는 심장</h4>
+                                    <p>증착 공정용 로봇이 멈춰 선 긴급 상황 속, 원인 불명의 통신 에러를 <strong>"상상 불가한 일을 해낼 기회"</strong>로 받아들여 즉가적인 대응에 나섰습니다.</p>
+                                </div>
+                                <div class="story-block">
+                                    <h4>분석: 더 깊이 듣고, 더 크게 생각하다</h4>
+                                    <p>오퍼레이터들의 목소리에 <strong>"더 깊이 듣는 것이 멀리 나아가는 것"</strong>이라는 믿음으로 귀 기울였습니다. 시스템 전반과 전력 공급망의 상호작용까지 분석했습니다.</p>
+                                </div>
+                                <div class="story-block">
+                                    <h4>해결: 끈질긴 반복 끝에 찾아낸 혁신</h4>
+                                    <p>수백 번의 데이터 로그 분석과 배선 테스트 끝에 미세한 진동으로 인한 케이블의 마모를 발견했습니다. 교체 및 진동 방지 가이드 설계로 완벽한 조치를 취했습니다.</p>
+                                </div>
+                                <div class="story-block">
+                                    <h4>결과: 신뢰로 증명된 지속 가능한 운영</h4>
+                                    <p>설비를 다시 가동시키고 고객사와 두터운 신뢰를 구축했습니다. 0.1mm의 오차가 없는 집념이 지속 가능한 제품 혁신으로 이어진다는 것을 증명했습니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collaboration Section -->
+        <section id="collaboration" class="section collaboration">
+            <div class="collab-bg"></div>
+            <div class="container relative z-10">
+                <div class="section-header text-center reveal-up">
+                    <h2 class="section-title">Collaboration</h2>
+                    <p class="section-desc text-white">더 깊이 듣고 멀리 나아간다</p>
+                </div>
+                <div class="collab-content grid-2">
+                    <div class="collab-image reveal-up">
+                        <div class="collab-img-placeholder">
+                        </div>
+                    </div>
+                    <div class="collab-text reveal-up" style="transition-delay: 0.2s;">
+                        <h3>효과적인 의사소통, 두터운 신뢰의 밑거름</h3>
+                        <p>엔지니어에게 기술력만큼 중요한 것은 바로 '소통'입니다. 현장의 오퍼레이터, 동료 엔지니어, 그리고 고객사와의 긴밀한 피드백 루프만이 설비 가동률을 극대화할 수 있습니다.</p>
+                        <p>문제 발생 시 내 의견을 관철시키기보다는 파트너의 고민과 현장의 제약사항을 <strong>더 깊이 듣고</strong>, 모두가 만족할 수 있는 효율적인 유지보수 방향을 제시하며 <strong>멀리 나아갑니다.</strong></p>
+                        <div class="badge-list mt-sm">
+                            <span class="badge">현장 소통</span>
+                            <span class="badge">피드백 수용</span>
+                            <span class="badge">신뢰 구축</span>
+                            <span class="badge">팀워크</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Board Section -->
+        <section id="board" class="section board">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <h2 class="section-title">Communication Board</h2>
+                    <p class="section-desc">현장에서의 작은 목소리까지 더 깊이 듣습니다.</p>
+                </div>
+                
+                <div class="board-guide glass-panel reveal-up mb-md">
+                    <div class="guide-header">
+                        <div class="guide-icon">💬</div>
+                        <h3 class="guide-title text-white">게시판 이용 안내</h3>
+                    </div>
+                    <div class="guide-steps">
+                        <div class="guide-step">
+                            <span class="step-num">01</span>
+                            <div>
+                                <strong>정보 입력</strong>
+                                <p>정확한 이름과 이메일을 남겨주세요.</p>
+                            </div>
+                        </div>
+                        <div class="guide-step">
+                            <span class="step-num">02</span>
+                            <div>
+                                <strong>내용 작성</strong>
+                                <p>질문, 요청사항, 기술 문의를 작성합니다.</p>
+                            </div>
+                        </div>
+                        <div class="guide-step">
+                            <span class="step-num">03</span>
+                            <div>
+                                <strong>신속한 소통</strong>
+                                <p>등록 즉시 바로 반영되며, 최대한 빨리 피드백을 드립니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="board-content grid-2 box-gap reveal-up">
+                    <div class="board-form-container glass-panel">
+                        <h3 class="panel-heading">문의하기 / 글쓰기</h3>
+                        <form id="boardForm" class="board-form mt-sm">
+                            <div class="form-row">
+                                <div class="form-group flex-1">
+                                    <label for="authorName">이름 <span class="required">*</span></label>
+                                    <input type="text" id="authorName" class="form-control" placeholder="홍길동" required autocomplete="off">
+                                </div>
+                                <div class="form-group flex-1">
+                                    <label for="authorEmail">이메일 <span class="required">*</span></label>
+                                    <input type="email" id="authorEmail" class="form-control" placeholder="hello@example.com" required autocomplete="off">
+                                </div>
+                            </div>
+                            <div class="form-group mt-sm">
+                                <label for="postContent">문의 내용 <span class="required">*</span></label>
+                                <textarea id="postContent" class="form-control" rows="6" placeholder="여기에 문의사항이나 의견을 상세하게 적어주세요." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 mt-md">✨ 의견 등록하기</button>
+                        </form>
+                    </div>
+
+                    <div class="board-list-container glass-panel">
+                        <h3 class="panel-heading">최근 소통 내역</h3>
+                        <div id="boardList" class="board-list mt-sm">
+                            <!-- Posts will be generated by JS -->
+                            <div class="empty-state text-muted text-center mt-md">
+                                <p>등록된 게시물이 없습니다. 첫 번째 글을 남겨보세요!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Future Section -->
+        <section id="future" class="section future">
+            <div class="container text-center">
+                <div class="section-header reveal-up text-center">
+                    <h2 class="section-title">Future</h2>
+                    <p class="section-desc">2050 Net-zero 전략의 실천</p>
+                </div>
+                
+                <div class="future-content glass-panel reveal-up">
+                    <div class="future-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                    </div>
+                    <h3>지속 가능한 제품 혁신</h3>
+                    <p class="future-text">
+                        친환경적이고 효율적인 로봇 유지보수 프로세스를 통해 기업의 비전과 궤를 같이 합니다.<br>
+                        에너지 효율화 및 폐기물 저감을 실천하는 엔지니어가 되어 현대로보틱스의 무한한 가능성을 함께 열어가겠습니다.
+                    </p>
+                </div>
+
+                <div class="cta-section reveal-up mt-md">
+                    <h3 class="cta-text">저의 더 많은 이야기와 역량을 확인해보세요</h3>
+                    <div class="cta-buttons">
+                        <a href="#" class="btn btn-primary" onclick="alert('이력서 다운로드가 시작됩니다.')">📄 PDF 이력서 다운로드</a>
+                        <a href="mailto:engineer@example.com" class="btn btn-outline">✉️ 연락하기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 Hyundai Robotics Semiconductor Maintenance Engineer Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js?v=2"></script>
+</body>
+</html>
